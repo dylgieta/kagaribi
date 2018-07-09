@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="img/fabicon-16-16.png" sizes="16x16">
+  <link rel="icon" type="image/x-icon" href="img/fabicon-32-32.png" sizes="32x32">
+  <link rel="icon" type="image/x-icon" href="img/fabicon-48-48.png" sizes="48x48">
+  <link rel="icon" type="image/x-icon" href="img/fabicon-64-64.png" sizes="64x64">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KAGARIBI FARM　人と繋がるミニファーム</title>
+  <meta property="og:title" content="KAGARIBI FARM　人と繋がるミニファーム">
+  <meta property="og:description" content="富士見市の豊かな土地と人が集まる空間を活用した、スローライフに憧れる人々の為の貸しファームandマルシェ『KAGARIBI FARM』のサイトです。都心から最短で約三十分の近場ファームで週末農業が楽しめる...">
+
+<script src="jquery-3.2.1.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+      var showFlag = false;
+      var topBtn = $('#top');
+      topBtn.css('bottom', '-200px');
+      var showFlag = false;
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+              if (showFlag == false) {
+                  showFlag = true;
+                  topBtn.stop().animate({'bottom' : '20px'}, 1000);
+              }
+          } else {
+              if (showFlag) {
+                  showFlag = false;
+                  topBtn.stop().animate({'bottom' : '-100px'}, 500);
+              }
+          }
+      });
+      topBtn.click(function () {
+          $('body,html').animate({
+              scrollTop: 0
+          }, 700);
+          return false;
+      });
+  });
+  </script>
+
+</head>
+<body>
+
+  <div class="wrap">
+
+    <div id="top"><a href="#wrap">TOP</a></div>
+
+    <div class="first">
+      <img src="img/first.png" alt="" id="photo" display:block/>
+
+      <span>
+        <img src="img/logo.png" alt="">
+      </span>
+
+      <div class="eat">
+        <img src="img/h1.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="wraps1"></div>
+	  
+	   <div class="divine">
+                  <h1>Introduce movie</h1>
+
+                  <div class="victol">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/o1DBbVEQL_M?rel=0?" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+            </div>
+
+
+
+        <div class="wraps2"></div>
+
+        <div class="alvi">
+	  <div class="second">
+        <h1>What's KAGARIBI FARM?</h1>
+
+          <img src="img/second.png" alt="">
+        </div>
+
+            <div class="faxel">
+              <p>『KAGARIBI FARM』は週末利用型の貸し農地です。
+                都心から約一時間のアクセスの良さと、ここ埼玉県富士見市に多く点在する
+                耕作放棄地を利用し、自由気ままに農業を楽しんで頂けます。
+                ふじみ野駅、鶴瀬駅、みずほ台駅の3駅から受付・ファーム入り口までは約10分の道のりを路線バスが通っており、楽々アクセス出来ます。
+                初めての方でも、スタッフが分かりやすく丁寧に対応します。
+                古くの篝火のように、コミニュケーションを楽める。そんな農地を目指しています。
+              </p>
+            </div>
+    </div>
+
+    <div class="wraps2"></div>
+	  
+               <div class="divine">
+          <h1>What's KAGARIBI MARCHE?</h1>
+
+          <div class="alvi">
+            <img src="img/marche.jpg" alt="">
+          </div>
+
+              <div class="faxel">
+                <p>『KAGARIBI FARM』の農地で取れた作物の内、売りたい物や消費しきれなかった物を、参加型のフリーマーケット方式で販売する事が出来ます。
+                  採れたての作物をそのまま販売する事も出来ますが、『KAGARIBI MARCHE』を通して、安全に加工品にする事が出来ます。
+                  月に一度行うこのマルシェ(ファームマーケット)では、様々なイベントを予定しており、公園中心では常にキャンプファイアーが行われます。
+                  炎を囲みながら出展者や来場者の方々との交流を楽しんで頂けます。
+                </p>
+              </div>
+    </div>
+
+      <div class="wraps2"></div>
+
+
+            <div class="colt">
+
+                  <h1>MAP</h1>
+
+                  <div class="val">
+                    <img src="img/map.png" alt="">
+                    <img src="img/map2.png" alt="">
+                  </div>
+
+                  <div class="malcos">
+                    <ul class="bes">
+                      <li><h2>KAGARIBI FARM</h2>東武東上線鶴瀬駅からバスで10分、そこから徒歩で2分</li>
+                      <li><h2>KAGARIBI MARCHE</h2>東武東上線みずほ台駅から徒歩で10分</li>
+                    </ul>
+                  </div>
+
+            </div>
+
+          <div class="wraps3"></div>
+
+    <div class="menu">
+      <ul>
+        <li ><a href="https://twitter.com/kagaribifarm" target="_blank"> <i class="fa fa-twitter fa-2x fa-dead" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/farm.kagaribi.3" target="_blank"><i class="fa fa-facebook-official fa-2x fa-dead" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UC97Bz0SU4wODeGHHGtIHnGA" target="_blank"><i class="fa fa-youtube-play fa-2x fa-dead" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="copy">
+      Copyright © KAGARIBI ploject
+    </div>
+  </div>
+
+</body>
+</html>
